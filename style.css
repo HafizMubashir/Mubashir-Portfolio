@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 40% 45% ;
+    grid-template-rows: 40% 45% ;
+    gap: 2px;
+    width: 100%;
+    max-height: 350px; 
+}
+.icon{
+    width: 2dvh;
+    height: 20px;
+}
+.main-headings{
+ margin-top: 100px;
+
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 30px;
+    float: left;
+}
+.name-heading{
+    margin-top: 100px;
+    text-align: left;
+    margin-left:-250px ;
+    width: 100%;
+    clear: left;
+    
+}
+.name-heading h1{
+    margin: 0;
+    text-align: left;
+    
+    
+}
+.name-heading h2{
+    margin: 0;
+    
+}
+.label{
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
+    
+   
+}
+.content{
+    list-style: none;
+    margin: 0;
+ 
+}
+.content li{
+    text-align: left;
+    padding: 5px;
+    margin-left: -20px;
+}
+.about{
+    text-align: justify;
+    font-size: 1rem;
+    margin-left: 25px;
+    line-height: 1.5rem;
+    
+}
+.educational-details{
+    margin: 0;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+.date{
+    margin-left: 50px;
+    
+}
+.Education{
+    grid-row: span 2 ;
+     margin-top: 100px;
+}
+.Skills{
+    margin-top: -50px;
+}
+.experience{
+    grid-row: span 1;
+    margin-top: -20px;
+}
+ .references{
+       margin-top: -50px;
+
+    }
+@media(max-width:1220px){
+    .main-container{
+        display: block;
+       
+    }
+    .name-heading{
+        display: block;
+        margin-left: 0;
+    }
+    .Skills{
+        margin-top: -20;
+    }
+    .main-headings{
+        height: 200px;
+        margin-top: 0;
+    }
+    .Education{
+        margin-top: -20px;
+    }
+    .references{
+        margin-top: 0;
+    }
+   
+    
+}
