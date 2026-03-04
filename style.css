@@ -1,0 +1,146 @@
+body{
+    height: 100vh;
+    background-color:linen;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-size: 1rem;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 40% 45% ;
+    grid-template-rows: 40% 45% ;
+    gap: 2px;
+    width: 100%;
+    max-height: 350px;
+}
+
+.icon{
+    width: 2dvh;
+    height: 20px;
+}
+.main-headings{
+ margin-top: 100px;
+
+}
+.Contact{
+    margin-top: 100px;    
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 30px;
+    float: left;
+}
+.name-slogan{
+    margin-top: 100px;
+    text-align: left;
+    margin-left:-500px ;
+    width: 100%;
+    clear: left;
+   
+    
+}
+.name-slogan h1{
+    margin: 0;
+    text-align: left;
+     flex: 0;
+     color:lightcoral;
+     text-transform: uppercase;
+    
+}
+.name-slogan h2{
+    margin: 0;
+    flex-shrink: 0;
+    color:darkcyan;
+    text-transform: uppercase;
+    
+}
+.label{
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
+    color:darkorange;
+
+   
+}
+.content{
+    list-style: none;
+    margin: 0;
+ 
+}
+.content li{
+    text-align: left;
+    padding: 5px;
+    margin-left: -20px;
+}
+.about{
+    text-align: justify;
+    font-size: 1rem;
+    margin-left: 25px;
+    line-height: 1.5rem;
+  
+    
+}
+.educational-details{
+    margin: 0;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+.date{
+    position: absolute;
+    background-color:azure;
+    margin-left: 150px;
+
+    
+}
+.Education{
+    grid-row: span 2 ;
+     margin-top: 100px;
+}
+.Skills{
+    margin-top: -80px;
+}
+.experience{
+    grid-row: span 1;
+    margin-top: -20px;
+}
+.references{
+       margin-top: -150px;
+
+}
+
+
+  
+ 
+@media(max-width:1000px){
+    .main-container{
+        display: block;
+        height: 100vh;
+       
+    }
+    .name-slogan{
+        display: block;
+        margin-left: 0;
+    }
+    .Skills{
+        margin-top: -20px;
+    }
+    .main-headings{
+        height: 200px;
+        margin-top: 0;
+    }
+    .Education{
+        margin-top: -20px;
+    }
+    .references{
+        margin-top: 0;
+    }
+   .Contact{
+        
+        margin-top: 0;
+       
+    }
+    
+}
